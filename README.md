@@ -179,6 +179,7 @@ AI is a **powerful, revolutionary, and continuously evolving** technology, shapi
 - **Average-Pooling**: Computes the average value within a region of the image.  
 - **Autoregression**: In an autoregressive model, the output generated in a given step is used as input for the next step. This creates a **sequential dependency**.
 - **Backpropagation**: An algorithm that optimizes **weights** and **biases** by correcting the model’s errors.  
+- **Batch**: Subset of the dataset that is processed together before updating the weights.
 - **BatchNormalization (Normalization)**: Technique that improves training stability and speed by **normalizing the output of layers to have a mean of zero** and a variance of one, applied during both training and inference.
 - **Batch Size**: Number of samples processed by the model in a single training step.
 - **Bagging (Bootstrap Aggregating)**: An ensemble learning method that reduces **variance** by training multiple models on random subsets of data and averaging their predictions. Used in **Random Forests**.
@@ -226,7 +227,7 @@ AI is a **powerful, revolutionary, and continuously evolving** technology, shapi
 - **Distance Euclidean**: A metric for calculating the distance between two points in multidimensional space.  
 - **Distance Manhattan**: A metric based on orthogonal (grid-like) paths, an alternative to Euclidean distance.  
 - **DQN (Deep Q-Network)**: Variant that uses a neural network instead of the Q-table.
-- **Dropout**: Regularization technique that **reduces overfitting** by randomly deactivating a fraction of neurons during training.
+- **Dropout**: Regularization technique that **reduces overfitting** by randomly deactivating a fraction of neurons during training. randomly turns off a percentage of neurons during training to avoid overfitting.
 - **Dummy Class**: A fictitious class used in **One-vs-All** to separate a single class from the others.  
 - **Elastic Weight Consolidation (EWC)**: A **biologically inspired algorithm** that **slows learning on critical weights** for previous tasks, **preserving past knowledge** while learning new tasks.
 - **Elbow Method**: A method for finding the optimal number of clusters in K-Means. 
